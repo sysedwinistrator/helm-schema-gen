@@ -64,6 +64,7 @@ get_binaries() {
   case "$PLATFORM" in
     darwin/386) BINARIES="helm-schema-gen" ;;
     darwin/amd64) BINARIES="helm-schema-gen" ;;
+    darwin/arm64) BINARIES="helm-schema-gen" ;;
     linux/386) BINARIES="helm-schema-gen" ;;
     linux/amd64) BINARIES="helm-schema-gen" ;;
     windows/386) BINARIES="helm-schema-gen" ;;
